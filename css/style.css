@@ -20,13 +20,13 @@ header {
     background-color: white;
 }
 
-#LogoName {
+#logoname {
 
     display: inline-block;
     vertical-align: middle;
 }
 
-#LogoImg {
+#logoimg {
 
     vertical-align: middle;
 }
@@ -61,63 +61,59 @@ button {
     border-radius: 3px;
 }
 
-#TaskButton {
+#taskbutton {
     background-color: #47ADF1;
     color: white;
     border:1px solid #47ADF1;
 }
 
-#SectionButton {
+#sectionbutton {
     border: 1px solid #C8CED3;
     color: #C8CED3;
 }
 
 
-.Checklist{
+.checklist{
     padding-top: 20px;
     padding-left: 50px;
     font-size: 18px;
 }
 
 section {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 section h2::before {
-    content: '\25BC   ';
+    content: '\25BE  ';
 }
 
-.Checked { 
+.checkbox {
     display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.checked { 
     border: 1px solid green;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
     color: green;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 12px;
-    margin-right: 10px;
 }
 
-.Unchecked {
-    display: inline-block;
+.unchecked {
     border: 1px solid red;
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
     color: red;
-    text-align: center;
-    vertical-align: middle;
-    font-size: 12px;
-    margin-right: 10px;
 }
 
 li {
-    margin: 10px ;
+    margin: 20px ;
 
 }
+
 .tag {
     display: inline-block;
     height: 25px;
