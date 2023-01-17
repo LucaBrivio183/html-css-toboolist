@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+_________________________________________________________
+   HEADER
+_________________________________________________________
+*/
+header {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#LogoName {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#LogoImg {
+    vertical-align: middle;
+}
+/* 
+_________________________________________________________
+   MAIN
+_________________________________________________________
+*/
