@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    background-color: #f6f8f9;
+
 }
 
+body {
+    background-color: #f6f8f9;
+}
 /* 
 _________________________________________________________
    HEADER
@@ -13,19 +16,18 @@ _________________________________________________________
 */
 header {
     height: 10%;
-    padding-left: 10px;
-    padding-top: 10px;
+    padding: 10px 20px;
     background-color: white;
 }
 
 #LogoName {
-    background-color: white;
+
     display: inline-block;
     vertical-align: middle;
 }
 
 #LogoImg {
-    background-color: white;
+
     vertical-align: middle;
 }
 /* 
@@ -34,19 +36,22 @@ _________________________________________________________
 _________________________________________________________
 */
 
-.Container  {
+.container  {
     background-color: white;
     max-width: 1000px;
     width: 80%;
     height: fit-content;
     margin: 50px auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 10px;
 }
 
 #buttonsbox {
-    height: 40px;
-    margin-bottom: 1px;
-    padding-top: 10px;
-    padding-left: 50px;
+    background-color: white;
+    height: fit-content;
+    padding: 10px 50px;
+    border-bottom: 3px solid #f6f8f9;
 }
 
 button {
@@ -67,15 +72,20 @@ button {
     color: #C8CED3;
 }
 
+
 .Checklist{
     padding-top: 20px;
     padding-left: 50px;
     font-size: 18px;
+}
 
+section {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 section h2::before {
-    content: '▼  ';
+    content: '\25BC   ';
 }
 
 .Checked { 
