@@ -102,3 +102,37 @@ li {
     vertical-align: middle;
     font-size: 12px;
 }
+
+.tag {
+    display: inline-block;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 12px;
+    color: white;
+}
+
+.editorial {
+    background-color: #45ABEA;
+}
+
+.q1goals {
+    background-color: #9C72E4;
+}
+
+.recruiting  {
+    background-color: #65C1AA;
+}
+
+.mobile {
+    background-color: #F29E33;
+}
+
+.website {
+    background-color: #D863A1;
+}
+
+.sales  {
+    background-color: #B0C926;
+}
