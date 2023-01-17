@@ -11,7 +11,7 @@ _________________________________________________________
 _________________________________________________________
 */
 header {
-    height: 50px;
+    height: 10%;
     padding-left: 10px;
     padding-top: 10px;
 }
@@ -32,4 +32,58 @@ _________________________________________________________
 
 main {
     background-color: f6f8f9;
+}
+
+.Container  {
+    background-color: white;
+    max-width: 1000px;
+    width: 80%;
+    margin: 50px auto;
+}
+
+.ButtonsBox {
+    margin-bottom: 1px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+button {
+    margin: 3px;
+    padding: 4px 8px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+
+#TaskButton {
+    background-color: #47ADF1;
+    color: white;
+    border:1px solid #47ADF1;
+}
+
+#SectionButton {
+    border: 1px solid #C8CED3;
+    color: #C8CED3;
+}
+
+.Checklist{
+    padding-top: 20px;
+    padding-left: 50px;
+    font-size: 18px;
+}
+
+section h2::before {
+    content: '▼  ';
+}
+
+.Cheked { 
+    display: inline-block;
+    border: 1px solid green;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: green;
+}
+
+section h3 {
+    display: inline-block;
 }

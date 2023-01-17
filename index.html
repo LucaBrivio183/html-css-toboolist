@@ -20,12 +20,39 @@
     <!-- main -->
     <main>
         <div class="Container">
-            <div class="Buttons">
+            <!-- Bottoni -->
+            <div id="ButtonsBox">
+                <button id="TaskButton">Add Task</button><button id="SectionButton">Add Section</button> 
+            </div>
+            <!-- /Bottoni -->
+            <!-- Checklist -->
+            <div class="Checklist">
+                <section id="NewTask"> 
+                    <h2>New Task</h2>
+
+                        <div class="Checked">&#x2713</div><h3>Quaterly Newsletter</h3>
+                </section>
+                <section id="Today">
+                    <h2>Today</h2>
+                    <ul style="list-style: none;">
+                        <li><div class="Checked">&#x2713</div></li>
+                        <li><div class="Checked">&#x2713</div></li>
+                        <li><div class="Unchecked"></div></li>
+                        <li><div class="Checked">&#x2713</div></li>
+                    </ul>
+                </section>
+                <section id="Upcoming">
+                    <h2>Upcoming</h2>
+                    <ul style="list-style: none;">
+                        <li><div class="Unchecked"></div></li>
+                        <li><div class="Checked">&#x2713</div></li>
+                        <li><div class="Checked">&#x2713</div></li>
+                        <li><div class="Checked">&#x2713</div></li>
+                    </ul>
+                </section>
 
             </div>
-            <div class="Checklist">
-                
-            </div>
+            <!-- /Checklist -->
         </div>
     </main>
     <!-- /main -->
